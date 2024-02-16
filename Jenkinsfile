@@ -26,6 +26,12 @@ pipeline {
         sh 'php artisan migrate:fresh --seed'
       }
     }
+    stage('Test') {
+      steps {
+        // Run PHPUnit tests
+        sh 'php artisan test'
+      }
+    }
 
 
 
