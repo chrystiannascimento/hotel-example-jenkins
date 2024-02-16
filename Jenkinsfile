@@ -16,6 +16,7 @@ pipeline {
       steps {
         // Install Composer dependencies
         sh 'composer install'
+        sh 'cp .env.example .env'
       }
     }
     stage('Migration') {
