@@ -18,6 +18,15 @@ pipeline {
         sh 'composer install'
       }
     }
+    stage('Migration') {
+      steps {
+        // Install Composer dependencies
+        sh 'php artisan migrate --force'
+        sh 'php artisan migrate:fresh --seed'
+      }
+    }
+
+
 
   }
 }
