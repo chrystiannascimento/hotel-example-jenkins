@@ -11,7 +11,7 @@ define('NOTFOUND', '400'); // Not Found
 define('HOTELDATANOTFOUNDMSG', 'Hotel Data Not found');
 define('HOTELDATAMSG', 'Hotel Data');
 define('HOTELREVIEWSAVEDMSG','Hotel Review saved.');
-define('HOTELREVIEWDELETEDMSG','Hotel Review deleted successfully.');
+define('HOTELREVIEWDELETEDMSG','Hotel Review deleted successfulli.');
 define('HOTELREVIEWUPDATEDMSG','Hotel Review updated.');
 
 define('supplierArray',[
